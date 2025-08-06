@@ -61,6 +61,28 @@ form button{
     cursor :pointer;
     display: none;
 }
+
+#image-search-form {
+    margin-top: 15px;
+    background-color: transparent;
+    height: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+#image-upload-box {
+    flex: none;
+    height: auto;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+}
+
+#image-search-btn {
+    height: 50px;
+    border-radius: 8px;
+}
 #search-result {
     width:80%;
     margin:100px auto 50px;
